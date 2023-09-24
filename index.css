@@ -1,0 +1,41 @@
+button{
+    /* color: rgb(132, 0, 255);
+    background-color: rgb(1, 247, 255); */
+    width: 150px;
+    height: 70px;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    transition: .5s;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    opacity: .5;
+    box-shadow: 5px 5px 10px;
+    background-image: url("buttonBG.jpg");
+    background-size: 12vw;
+}
+button:hover{
+    background-color: rgb(195, 0, 255) ;
+    color: rgb(134, 227, 255);
+    transition: .5s;
+}
+.wholeDocument{
+    text-align: center;
+    transition: 1s;
+}
+.mainbody{
+    color: white;
+    font-family: cursive;
+    font-size: 30px;
+    padding: 0 200px 0 200px;
+    text-align: justify;
+    text-shadow: 5px 5px 14px black;
+}
+body{
+    background-color: azure;
+    background-image: url("bg.jpg");
+    background-size: 100vw;
+    background-repeat: repeat-y;
+    margin-bottom: 1000px;
+}
