@@ -28,7 +28,7 @@ let music = document.querySelector("#myAudio");
 
 async function pr(){
     terminate = !terminate;
-    music.volume = 0.01;
+    music.volume = 0.1;
     music.play();
     await sleep(600);
     
